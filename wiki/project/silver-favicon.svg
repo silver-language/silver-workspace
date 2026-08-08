@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 -320 640 640">
+	<style>
+		@media (prefers-color-scheme: light)	{
+			rect { fill: white; }
+			circle { stroke: black; }
+		}
+		@media (prefers-color-scheme: dark)		{
+			rect { fill: black; }
+			circle{ stroke: white; }
+		}
+
+		circle.main	{ cx:0; cy:0; r:178px; stroke-width:58; }
+		circle {
+			cx:0;
+			cy:-260px;
+			fill:none;
+			r:74px;
+			stroke-width:44;
+		}
+		.l { transform: rotate(-120deg); }
+		.r { transform: rotate(+120deg); }
+	</style>
+	<rect x="-320" y="-320" width="640" height="640"/>
+	<g transform="translate(0,38)">
+		<circle class="main"/>
+		<circle />
+		<circle class="r"/>
+		<circle class="l"/>
+	</g>
+</svg>
