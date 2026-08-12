@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 -320 640 640">
 	<style>
-		@media (prefers-color-scheme: light)	{
-			circle { stroke: black; }
-		}
-		@media (prefers-color-scheme: dark)		{
-			circle{ stroke: white; }
-		}
 		circle.main	{ cx:0; cy:0; r:178px; stroke-width:58; }
 		circle {
+			stroke: grey;
 			cx:0;
 			cy:-260px;
 			fill:none;

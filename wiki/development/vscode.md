@@ -5,17 +5,19 @@ VSCode
 Material Icons
 --------------
 
-Add an association for silver:
+Add symlink to a copy of the icon:
+Eg
+	~/.vscode-oss/extensions/pkief.material-icon-theme-5.37.0-universal/icons/silver.svg
+pointing to:
+	path-to/silver-workspace/vscode-icon.svg
+
+
+Then add the association for silver:
 
 ```json
     "material-icon-theme.files.associations": {
         "*.agd": "silver"
     }
 ```
-Add a file link to a copy of the icon:
-Eg
-	~/.vscode-oss/extensions/pkief.material-icon-theme-5.37.0-universal/icons/silver.svg
-pointing to copy of the icon:
-	path-to/silver-workspace/icon.svg
 
-
+Vscode doesn't seem to support `prefers-color-scheme` for its icons so the file is simplified to look okay in light/dark.
