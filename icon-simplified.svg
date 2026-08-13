@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-320 -320 640 640">
+	<style>
+		circle { fill:none; }
+		.small circle { stroke-width:44; }
+	</style>
+	<g transform="translate(0,64)" style="stroke:grey;">
+		<circle cx="0" cy="0" r="178" style="stroke-width:58;"/>
+		<g class="small">
+			<circle r="74" cx="0" cy="-260"/>
+			<circle r="74" cx="-225" cy="130"/>
+			<circle r="74" cx="+225" cy="130"/>
+		</g>
+	</g>
+</svg>
