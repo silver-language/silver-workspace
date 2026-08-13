@@ -9,7 +9,7 @@ Add symlink to a copy of the icon:
 Eg
 	~/.vscode-oss/extensions/pkief.material-icon-theme-5.37.0-universal/icons/silver.svg
 pointing to:
-	path-to/silver-workspace/vscode-icon.svg
+	path-to/silver-workspace/icon-simplified.svg
 
 
 Then add the association for silver:
